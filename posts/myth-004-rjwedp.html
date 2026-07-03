@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Llama 3.1 의 RoPE 를 5000 만까지 밀면, 대구 SEO 마케팅 업체처럼 키워드가 왜 꼬일까</title>
+  <link rel="canonical" href="https://sarakinhceo-gif.github.io/bp-kr-pbn-bp-051/posts/myth-004-rjwedp.html">
+  <style>
+    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+    p { margin: 0 0 1em; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html">← 목록으로 돌아가기</a>
+  </header>
+  <main>
+    <h1>Llama 3.1 의 RoPE 를 5000 만까지 밀면, 대구 SEO 마케팅 업체처럼 키워드가 왜 꼬일까</h1>
+    <article>
+      <p><img src="../assets/SVD_00003.png" alt="Llama 3.1 RoPE Hyperparameter Tuning and Perplexity Curve Analysis" loading="lazy" width="1344" height="768"></p>
+<p>RoPE theta 를 500 만에서 5000 만으로 올리면 perplexity 가 반드시 줄어드는 건 아니야. 대다수는 '맥락 길이'만 길어지면 된다고 생각하지만, 실제로는 토큰 밀집도가 깨지는 구간이 먼저 오니까.</p>
+<p>보통 클라이언트가 "검색엔진 최적화"를 요청할 때, 단순히 키워드 빈도를 높여달라고 하는 것과 비슷해. 초기에는 순위가 올라가는 것처럼 보이지만, 실제 전환율은 오히려 뚝 떨어지지. 모델 파라미터도 똑같고, 특정 구간에서 어텐션 가중치가 기대치보다 낮게 반응하는 건 기본이야.</p>
+<p>구체적으로 64k~128k 토큰 사이에서는 RoPE 주파수 변화가 어휘 분포를 왜곡할 수 있어. 이때 perplexity 는 미세하게 뚝 뛰지만, 추론 성능은 유지되는 경우가 더 흔해. 단순히 숫자를 올리는 게 아니라, 작업의 길이와 모델 용량을 고려해야 해.</p>
+<p>## 조건별 분기 확인<br>작업이 20k 토큰 내면 기존 설정을 유지하는 게 효율적이야. 반면 128k 를 넘어서는 긴 문서를 다룰 때는 주파수 재조정 비용보다 성능 저하 위험이 더 커.</p>
+<p>## 실제 적용 체크포인트<br>변환 후 첫 500 토큰 구간에서 어텐션 가중치가 예상치 못하게 뻥튀기되는지 확인해 봐야 해. 그리고 전체적인 perplexity 변화보다, 특정 키워드 반복 시의 응집력 유지가 더 중요하지. 마지막으로 수정이 필요한 경우 10% 단위로 테스트하며 급변하는 지점을 피해야 한다.</p>
+<p>결국 선택 기준은 '작업의 지속성'에 따라</p>
+    </article>
+  </main>
+</body>
+</html>
