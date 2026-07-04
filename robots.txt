@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kr-pbn-bp-051.node-link.shop/sitemap.xml
+Sitemap: https://daegu-online-marketing.node-link.shop/sitemap.xml
