@@ -24,7 +24,7 @@
   <main>
     <h1>Llama 3.1 의 RoPE 를 5000 만까지 밀면, 대구 SEO 마케팅 업체처럼 키워드가 왜 꼬일까</h1>
     <article>
-      <p><img src="../assets/SVD_00003.png" alt="Llama 3.1 RoPE Hyperparameter Tuning and Perplexity Curve Analysis" loading="lazy" width="1344" height="768"></p>
+      <p><img src="../assets/SVD_00003.webp" alt="Llama 3.1 RoPE Hyperparameter Tuning and Perplexity Curve Analysis" loading="lazy" width="1344" height="768"></p>
 <p>RoPE theta 를 500 만에서 5000 만으로 올리면 perplexity 가 반드시 줄어드는 건 아니야. 대다수는 '맥락 길이'만 길어지면 된다고 생각하지만, 실제로는 토큰 밀집도가 깨지는 구간이 먼저 오니까.</p>
 <p>보통 클라이언트가 "검색엔진 최적화"를 요청할 때, 단순히 키워드 빈도를 높여달라고 하는 것과 비슷해. 초기에는 순위가 올라가는 것처럼 보이지만, 실제 전환율은 오히려 뚝 떨어지지. 모델 파라미터도 똑같고, 특정 구간에서 어텐션 가중치가 기대치보다 낮게 반응하는 건 기본이야.</p>
 <p>구체적으로 64k~128k 토큰 사이에서는 RoPE 주파수 변화가 어휘 분포를 왜곡할 수 있어. 이때 perplexity 는 미세하게 뚝 뛰지만, 추론 성능은 유지되는 경우가 더 흔해. 단순히 숫자를 올리는 게 아니라, 작업의 길이와 모델 용량을 고려해야 해.</p>
